@@ -20,11 +20,10 @@ Ever since I began coding, I've always wanted to learn how to incorperate drag a
 - Keeps score?
 
 ## Design
+![image](https://github.com/user-attachments/assets/9e8f04dc-3144-4137-8ca5-56522578b76d)
 
-- Styled after my wife's favorite band The Funeral Portrait
 - X's are Black
 - O's are Green
 
-## Screenshots
-
 ## About the Author
+- Michael L. Gans [LinkedIn](https://www.linkedin.com/in/michaellgans/)
