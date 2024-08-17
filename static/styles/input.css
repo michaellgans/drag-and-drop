@@ -12,4 +12,7 @@
 
 /* GAMEBOARD */
 
-
+/* PIECES */
+.piece {
+    cursor: grab;
+}

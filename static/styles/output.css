@@ -554,31 +554,17 @@ video {
   --tw-contain-style:  ;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+.m-10 {
+  margin: 2.5rem;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+.m-20 {
+  margin: 5rem;
 }
 
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-}
-
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .mt-16 {
@@ -597,25 +583,20 @@ video {
   height: 20rem;
 }
 
-.h-auto {
-  height: auto;
+.h-40 {
+  height: 10rem;
 }
 
-.h-screen {
-  height: 100vh;
+.h-96 {
+  height: 24rem;
 }
 
-.h-4\/6 {
-  height: 66.666667%;
+.h-full {
+  height: 100%;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-1\/2 {
-  height: 50%;
+.h-3\/4 {
+  height: 75%;
 }
 
 .w-56 {
@@ -626,20 +607,28 @@ video {
   width: 20rem;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-1\/2 {
-  width: 50%;
+.min-w-60 {
+  min-width: 15rem;
 }
 
-.basis-1\/4 {
-  flex-basis: 25%;
-}
-
-.basis-1\/2 {
-  flex-basis: 50%;
+.min-w-96 {
+  min-width: 24rem;
 }
 
 .flex-row {
@@ -648,6 +637,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -676,16 +669,16 @@ video {
   border-bottom-width: 4px;
 }
 
-.border-r-4 {
-  border-right-width: 4px;
-}
-
 .border-b-4 {
   border-bottom-width: 4px;
 }
 
 .border-l-4 {
   border-left-width: 4px;
+}
+
+.border-r-4 {
+  border-right-width: 4px;
 }
 
 .border-t-4 {
@@ -697,14 +690,13 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.bg-green-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
-}
-
 .bg-green-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .text-center {
@@ -713,21 +705,6 @@ video {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .text-6xl {
@@ -747,4 +724,8 @@ video {
 
 /* GAMEBOARD */
 
+/* PIECES */
 
+.piece {
+  cursor: grab;
+}
