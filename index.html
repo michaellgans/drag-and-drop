@@ -15,53 +15,53 @@
 </head>
 
 <!-- Body -->
-<body class="bg-green-100">
+<body>
     <!-- Header -->
-    <header class="font-mono text-5xl font-bold text-center">
-        <h1 class="my-3">Tic-Tac-Toe</h1>
+    <header class="font-mono text-6xl font-bold text-center">
+        <h1 class="my-10">Tic-Tac-Toe</h1>
     </header>
 
     <!-- Game Container -->
-    <div class="game-container">
-        <div class="o-pieces-container bg-green-600 w-80 h-80 border-4 border-black">
+    <div class="game-container mt-16 flex flex-row justify-evenly items-center">
+        <div class="o-pieces-container flex bg-green-600 w-80 h-80 border-4 border-black">
 
         </div>
-        <div class="game-board">
-            <div class="board-row top-row">
-                <div id="1" class="board-space left corner w-56 h-56 border-4 border-black">
+        <div class="game-board flex flex-col">
+            <div class="board-row top-row flex flex-row">
+                <div id="1" class="board-space left corner w-56 h-56 border-r-4 border-b-4 border-black">
     
                 </div>
-                <div id="2" class="board-space middle w-56 h-56 border-4 border-black">
+                <div id="2" class="board-space middle w-56 h-56 border-x-4 border-b-4 border-black">
     
                 </div>
-                <div id="3" class="board-space right corner w-56 h-56 border-4 border-black">
+                <div id="3" class="board-space right corner w-56 h-56 border-b-4 border-l-4 border-black">
     
                 </div>
             </div>
-            <div class="board-row middle-row">
-                <div id="4" class="board-space left w-56 h-56 border-4 border-black">
+            <div class="board-row middle-row flex flex-row">
+                <div id="4" class="board-space left w-56 h-56 border-y-4 border-r-4 border-black">
     
                 </div>
                 <div id="5" class="board-space center w-56 h-56 border-4 border-black">
     
                 </div>
-                <div id="6" class="board-space right w-56 h-56 border-4 border-black">
+                <div id="6" class="board-space right w-56 h-56 border-y-4 border-l-4 border-black">
     
                 </div>
             </div>
-            <div class="board-row bottom-row">
-                <div id="7" class="board-space left corner w-56 h-56 border-4 border-black">
+            <div class="board-row bottom-row flex flex-row">
+                <div id="7" class="board-space left corner w-56 h-56 border-r-4 border-t-4 border-black">
     
                 </div>
-                <div id="8" class="board-space middle w-56 h-56 border-4 border-black">
+                <div id="8" class="board-space middle w-56 h-56 border-x-4 border-t-4 border-black">
     
                 </div>
-                <div id="9" class="board-space right corner w-56 h-56 border-4 border-black">
+                <div id="9" class="board-space right corner w-56 h-56 border-t-4 border-l-4 border-black">
     
                 </div>
             </div>
         </div>
-        <div class="x-pieces-container bg-green-600 w-80 h-80 border-4 border-black">
+        <div class="x-pieces-container flex bg-green-600 w-80 h-80 border-4 border-black">
     
         </div>
     </div>

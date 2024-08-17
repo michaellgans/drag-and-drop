@@ -559,44 +559,137 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.h-24 {
-  height: 6rem;
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
-.h-80 {
-  height: 20rem;
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.h-60 {
-  height: 15rem;
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-56 {
   height: 14rem;
 }
 
-.h-full {
-  height: 100%;
+.h-80 {
+  height: 20rem;
 }
 
-.w-24 {
-  width: 6rem;
+.h-auto {
+  height: auto;
 }
 
-.w-80 {
-  width: 20rem;
+.h-screen {
+  height: 100vh;
 }
 
-.w-60 {
-  width: 15rem;
+.h-4\/6 {
+  height: 66.666667%;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-1\/2 {
+  height: 50%;
 }
 
 .w-56 {
   width: 14rem;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.basis-1\/4 {
+  flex-basis: 25%;
+}
+
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .border-4 {
   border-width: 4px;
+}
+
+.border-x-4 {
+  border-left-width: 4px;
+  border-right-width: 4px;
+}
+
+.border-y-4 {
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+}
+
+.border-r-4 {
+  border-right-width: 4px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-l-4 {
+  border-left-width: 4px;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
 }
 
 .border-black {
@@ -627,27 +720,31 @@ video {
   line-height: 1;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 /* HEADER */
 
-header h1 {
-}
-
 /* BACKGROUND */
-
-body {
-}
 
 /* PIECES CONTAINERS */
 
 /* GAMEBOARD */
 
-.game-container {
-}
-
-.game-board {
-}
 
