@@ -20,7 +20,7 @@ Ever since I began coding, I've always wanted to learn how to incorperate drag a
 - Keeps score?
 
 ## Design
-![image](https://github.com/user-attachments/assets/9e8f04dc-3144-4137-8ca5-56522578b76d)
+![tic-tac-toe](https://github.com/user-attachments/assets/6c5280de-249f-4349-8f99-4e8ad5ba0e1e)
 
 - X's are Black
 - O's are Green
