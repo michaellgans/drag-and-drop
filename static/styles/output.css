@@ -554,16 +554,8 @@ video {
   --tw-contain-style:  ;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .m-20 {
   margin: 5rem;
-}
-
-.m-12 {
-  margin: 3rem;
 }
 
 .my-10 {
@@ -571,92 +563,36 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .flex {
   display: flex;
-}
-
-.h-56 {
-  height: 14rem;
-}
-
-.h-80 {
-  height: 20rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .h-3\/4 {
   height: 75%;
 }
 
-.h-28 {
-  height: 7rem;
+.h-40 {
+  height: 10rem;
 }
 
-.h-44 {
-  height: 11rem;
+.h-56 {
+  height: 14rem;
 }
 
-.w-56 {
-  width: 14rem;
-}
-
-.w-80 {
-  width: 20rem;
+.h-full {
+  height: 100%;
 }
 
 .w-40 {
   width: 10rem;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
-.w-auto {
-  width: auto;
+.w-56 {
+  width: 14rem;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-28 {
-  width: 7rem;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.min-w-60 {
-  min-width: 15rem;
-}
-
-.min-w-96 {
-  min-width: 24rem;
-}
-
-.flex-none {
-  flex: none;
 }
 
 .flex-row {
@@ -743,14 +679,6 @@ video {
 .font-bold {
   font-weight: 700;
 }
-
-/* HEADER */
-
-/* BACKGROUND */
-
-/* PIECES CONTAINERS */
-
-/* GAMEBOARD */
 
 /* PIECES */
 

@@ -4,14 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* HEADER */
-
-/* BACKGROUND */
-
-/* PIECES CONTAINERS */
-
-/* GAMEBOARD */
-
 /* PIECES */
 .piece {
     cursor: grab;
