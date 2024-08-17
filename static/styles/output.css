@@ -631,6 +631,10 @@ video {
   min-width: 24rem;
 }
 
+.flex-none {
+  flex: none;
+}
+
 .flex-row {
   flex-direction: row;
 }
