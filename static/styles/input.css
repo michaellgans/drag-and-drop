@@ -1,5 +1,9 @@
 /* Styles for Main Page */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* HEADER */
 header h1 {
 
@@ -7,7 +11,6 @@ header h1 {
 
 /* BACKGROUND */
 body {
-    background-color: darkgrey;
 }
 
 /* PIECES CONTAINERS */
